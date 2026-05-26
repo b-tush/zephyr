@@ -1,0 +1,34 @@
+# Build directories
+/build/
+/build_info.yml
+*.ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python and pip
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Dependencies
+.west/
+pip.log
+
+# OS files
+Thumbs.db
+.env
+.env.local
